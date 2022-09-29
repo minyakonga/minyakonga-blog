@@ -1,0 +1,7 @@
+site_name: 夏嘉莫察瓦绒
+site_url: https://minyakonga.github.io
+nav:
+    - About: about.md
+    - From Binary Search Tree To MySQL: from_binary_search_tree_to_mysql.md
+
+theme: readthedocs
