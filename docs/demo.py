@@ -1,3 +1,5 @@
+from distutils.sysconfig import customize_compiler
+from pickle import TRUE
 from typing import Union, Any
 from enum import Enum
 
@@ -44,29 +46,30 @@ class BinarySearchTree:
         Returns:
             Union[str, bool]: err, is_ok
         """
-        # 1st, if tree not exist yet, create root node and return
-        # 2nd, if value equals current node value, return
-        # 3rd, find the leaf node to add current value into it's child
-        cursor = self.root
-
-        while cursor:
-            if cursor.value > value:
-                next_cursor = cursor.left
-                if not next_cursor:
-                    cursor.left = TreeNode(value, None, None)
-                    return CustomExceptions.OK, True
-            elif cursor.value < value:
-                next_cursor = cursor.right
-                if not next_cursor:
-                    cursor.right = TreeNode(value, None, None)
-                    return CustomExceptions.OK, True
-            else:
-                return CustomExceptions.ALREADY_EXIST, True
-            
-            cursor = next_cursor
-        else:
+        # if root not exist or value eq to root
+        if not self.root:
             self.root = TreeNode(value, None, None)
             return CustomExceptions.OK, True
+        if self.root.value == value:
+            return CustomExceptions.ALREADY_EXIST, True
+
+        # find the leaf node to add current node to
+        previous, cursor = self.root, None
+        while cursor:
+            previous = cursor
+            if cursor.value > value:  # left child
+                cursor = cursor.left
+            else:  # right child
+                cursor = cursor.right
+
+        # add current node to left or right?
+        if previous.value > value:
+            previous.left = TreeNode(value, None, None)
+        elif previous.value < value:
+            previous.right = TreeNode(value, None, None)
+        else:
+            return CustomExceptions.ALREADY_EXIST, True
+        return CustomExceptions.OK, True
 
     async def delete(self, value: Any) -> Union[str, bool]:
         """delete value from tree
