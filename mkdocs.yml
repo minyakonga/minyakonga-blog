@@ -5,3 +5,6 @@ nav:
     - From Binary Search Tree To MySQL: from_binary_search_tree_to_mysql.md
 
 theme: readthedocs
+plugins:
+    - snippet:
+        base_path: docs/src
