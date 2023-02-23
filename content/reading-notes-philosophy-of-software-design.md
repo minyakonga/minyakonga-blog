@@ -7,3 +7,14 @@ Summary: ![Title](./images/douban-a-philosophy-of-software-design.jpg "Philosoph
 
 ![Title](./images/douban-a-philosophy-of-software-design.jpg "Philosophy Of Software Design")
 《Philosophy Of Software Design》 tells you how to keep system simple in various ways. when we working on new features, always remember: keep the current system as simple as possible, even it sacrifice the delivery speed.
+
+Like 《The Zen Of Python》, it is the guidelines for all programmers. due to all computer science problems are complexity decomposition problems, thus keep it(the system) simple is very import(Unix KISS). normally you can keep system simple by doing following:  
+- Module should be deep
+- Information hiding
+- Different layer, different abstraction
+- Pull complexity downwards
+- Define errors out of existence
+- Design it twice
+- Comment are very important
+- Good naming
+- Consitency
