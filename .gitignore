@@ -1,3 +1,5 @@
 site/
 minyakonga.github.io/
 docs/__pycache__/
+output/
+__pycache__/
