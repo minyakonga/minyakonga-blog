@@ -47,6 +47,7 @@
     <nav>
         <ul>
                     <li><a                         class="active" href="/category/readingnotes.html"> ReadingNotes </a></li>
+                    <li><a href="/category/tool.html"> tool </a></li>
         </ul>
     </nav>
 <main>
@@ -62,7 +63,7 @@
                     <time datetime="2023-02-24 19:30:00+08:00">Modified
                         on Feb 24, 2023</time>
                 </li>
-                <li>1 min read</li>
+                <li> min read</li>
                 <li>
                     Categories:
                     <a href="/category/readingnotes.html"><em>ReadingNotes</em></a>
@@ -71,11 +72,82 @@
             </ul>
         </aside>
         <p><img alt="Title" src="./images/douban-a-philosophy-of-software-design.jpg" title="Philosophy Of Software Design">
-《Philosophy Of Software Design》 tells you how to keep system simple in various ways. when we working on new features, always remember: keep the current system as simple as possible, even it sacrifice the delivery speed.</p>
+《Philosophy Of Software Design》 tells you how to keep the system simple in various ways. when we work on new features, always remember: to keep the current system as simple as possible, even if it sacrifices the delivery speed.</p>
+<p>Like 《The Zen Of Python》, it is the guidelines for all programmers. due to all computer science problems being complexity decomposition problems, thus keep it(the system) simple is very important (Unix KISS). normally you can keep the system simple by doing the following:<br>
+- The module should be deep<br>
+- Information hiding<br>
+- Different layers, different abstraction<br>
+- Pull complexity downwards<br>
+- Define errors out of existence<br>
+- Design it twice<br>
+- Comments and Documentations are very important<br>
+- Good naming<br>
+- Consistency  </p>
+<p>Strongly suggest you read the original book, there are much more details I can't write down here.</p>
+<p>Bad comments and documentation, for example after reading the newly created framework docs, I still don't know how to use the components, need to analyze others code to use it in our project.</p>
+<p>Bad naming, many variable and method names are simplified Chinese Pinyin. like <code>BAXH</code>, maintainers don't know what it means the first time.</p>
+<p>Not-so-good system design, for example, to save us time, introduced a lot of dependencies that are developed by other teams. sounds great but works terribly. cuz always have dependency system problems that need programmers to process at midnight.</p>
+<p>Here are some quotes from the book:</p>
+<blockquote>
+<p>The overall goal is to reduce complexity.</p>
+</blockquote>
+<!-- -->
+
+<blockquote>
+<p>As a program evolves and acquires more features, it becomes complicated, with subtle dependencies between its components. Over time, complexity accumulates and it becomes harder and harder for programmers to keep all of the relevant factors in their minds as they modify the system. this slows down development and leads to bugs, which slow development even more and add to its cost. Complexity increases inevitably over the life of any program. the larger the program, and the more people that work on it, the more difficult it is to manage complexity.</p>
+</blockquote>
+<!-- -->
+
+<blockquote>
+<p>Complexity is anything related to the structure of a software system that makes it hard to understand and modify the system.</p>
+</blockquote>
+<!-- -->
+
+<blockquote>
+<p>Complexity is more apparent to readers than writers.</p>
+</blockquote>
+<!-- -->
+
+<blockquote>
+<p>Change amplification: the first symptom of complexity is that a seemingly simple change requires code modifications in many different places.</p>
+</blockquote>
+<!-- -->
+
+<blockquote>
+<p>Cognitive load: the second symptom of complexity is cognitive load, which refers to how much a developer needs to know in order to complete a task. a higher cognitive load means that developers have to spend more time learning the required information, and there is a greater risk of bugs becuase they have missed something important.</p>
+</blockquote>
+<!-- -->
+
+<blockquote>
+<p>Unkown unkowns: the third symptom of complexity is that it is not obvious which pieces of code must be modified to complete a task, or what information a developer must have to carry out the task successfully.</p>
+</blockquote>
+<!-- -->
+
+<blockquote>
+<p>One of the most important goals of good design is for a system to be obvious. </p>
+</blockquote>
+<!-- -->
+
+<blockquote>
+<p>By separating the interface of a module from its implementation, we can hide the complexity of the implementation from the rest of the system. users of a module need only understand the abstraction provided by its interface. the most import issue in designing classes and other modules is to make them deep, so that they have simple interfaces for the common use cases, yet still provide significant functionality.</p>
+</blockquote>
+<!-- -->
+
+<blockquote>
+<p>The word "somewhat" is important: dont get carried away and build something so general-purpose that it is difficult to use for your current needs.</p>
+</blockquote>
+<!-- -->
+
+<blockquote>
+<p>Software systems are composed in layers, where higher layers use the facilities provided by lower layers. if a system contains ajacent layers with similar abstractions, this is a red flag that suggests a problem with the class decomposition.</p>
+</blockquote>
+<p>......</p>
     </article>
     <section class="post-nav">
         <div id="left-page">
             <div id="left-link">
+                <div id="left-arrow"><i class="fa fa-chevron-circle-left"></i></div>
+                <a href="/pelican-static-site-generator-tutorial.html"> Pelican static site generator tutorial</a>
             </div>
         </div>
         <div id="right-page">
