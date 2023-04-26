@@ -57,5 +57,7 @@ gp
 
 8th, commit the blog source code
 ```bash
-
+ga *
+gcmsg "add post: ****"
+gp
 ```
