@@ -3,6 +3,14 @@
 |:----------------------------------------|:-------------------------------------------------------------------|
 | Twitter: [https://x.com/minyakonga](https://x.com/minyakonga) | Github: [https://github.com/csrgxtu](https://github.com/csrgxtu)                                 |
 | Phone: [86+18598028196](86+18598028196)                   | Blog: [https://minyakonga.github.io](https://minyakonga.github.io)       [https://csrgxtu.github.io](https://cstgxtu.github.io) |
+<br/>
+
+## Education
+| Degree | Field Of Study | School | Date |
+|:------:|:--------------:|:------:|:----:|
+|Bachelor|[Information and Computing Science](https://math.xtu.edu.cn/)|Xiangtan University|Sep 2009 -- Jun 2012|
+|Master|[Computational Matchmatics](https://math.xtu.edu.cn/)|Xiangtan University|Sep 2012 -- Jun 2016
+<br/>
 
 ## Summary
 6+ years experience as server end developer, used to use various tech stacks, esp Python, Golang, NodeJs. familiar with internals of Python, web framework, MySQL, Redis, etc. Deep understanding of the tools we are using, still keep learning and digging the internals. Can concentrate on the things we are doing and keep improving it.
@@ -43,7 +51,8 @@
 <br/><br/><br/>
 
 ## Personal Projects
-[GoFrame buffix](https://github.com/gogf/gf/pull/802): contributed to Golang framework GF, fixed log file exceeded the rotate size setting.  
+[GoFrame bugfix](https://github.com/gogf/gf/pull/802): contributed to Golang framework GF, fixed log file exceeded the rotate size setting.  
+[tiktok-uploader bugfix](https://github.com/wkaisertexas/tiktok-uploader/pull/58): contributed to tiktok-uploader, fix start up problems.  
 [Python Coca web framework](https://github.com/csrgxtu/Cocoa): A Flask like python web framework implemented by myself.  
 [Google Hosts](https://github.com/csrgxtu/GoogleHosts-Python): trying find best ips of google.com and use it access google service.  
 [Drogo](https://github.com/csrgxtu/Drogo): make Chinese wechat im work under linux command line.  

@@ -4,9 +4,15 @@
 | Twitter: [https://x.com/minyakonga](https://x.com/minyakonga) | Github: [https://github.com/csrgxtu](https://github.com/cstgxtu)                                 |
 | 电话: [86+18598028196](86+18598028196)                   | 博客: [https://minyakonga.github.io](https://minyakonga.github.io)       [https://csrgxtu.github.io](https://csrgxtu.github.io) |
 
+## 学历
+| 学位 | 专业 | 学校 | 日期 |
+|:------:|:--------------:|:------:|:----:|
+|本科|[信息与计算科学](https://math.xtu.edu.cn/)|湘潭大学|2009.09 -- 2012.06|
+|硕士|[计算数学](https://math.xtu.edu.cn/)|湘潭大学|2012.09 -- 2016.06
+
 ## 总结
 拥有 6 年以上服务器端开发经验，习惯使用各种技术堆栈，尤其是 Python、Golang、NodeJs。 熟悉Python、Web框架、MySQL、Redis等内部原理。对我们正在使用的工具有深入的了解，仍然不断学习和挖掘内部原理。 能够专注于我们正在做的事情并不断改进。
-<br/><br/><br/>
+<br/><br/>
 
 ## 工作经历
 **腾讯云 安全合规部**, 深圳 广东, 5月 2020 -- 10月 2023  
@@ -41,6 +47,7 @@
 
 ## 个人项目
 [GoFrame buffix](https://github.com/gogf/gf/pull/802): 修复GoFrame框架日志文件过大不遵守Rotate设置问题。  
+[tiktok-uploader bugfix](https://github.com/wkaisertexas/tiktok-uploader/pull/58): 修复项目启动问题。   
 [Python Coca web framework](https://github.com/csrgxtu/Cocoa): 一个类似Flask的web框架。  
 [Google Hosts](https://github.com/csrgxtu/GoogleHosts-Python): 脚本寻找最佳谷歌IP方便使用谷歌搜索。  
 [Drogo](https://github.com/csrgxtu/Drogo): 一个可以在命令行工作的微信客户端。  
