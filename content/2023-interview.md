@@ -52,3 +52,41 @@ func test4() (v int) {
 
 slice vs array
 array are sequential memory address, which can be indexed, slice is a pointer to the orginal array.
+
+一面一个半小时，变成题目
+```Python
+原升序数组[]int{1,3,5,7,9}，将数组所有元素向右移动n=3个单位后得到[]int{5,7,9,1,3}。
+要求设计一种算法，根据偏移后的数组求n。
+例子1:
+输入：[]int{5,7,9,1,3}，输出：3
+例子2:
+输入：[]int{5,1,2,3,4}，输出：1
+
+#coding=utf-8
+import sys 
+from typing import List
+
+# 1, 3, 5, 7, 9
+# 5, 7, 9, 1, 3
+
+# 1, 2, 3, 4, 5
+# 5, 1, 2, 3, 4
+
+def get_offset(lst: List[int]) -> int:
+    """ get offset ..."""
+    offset, origin_list = 0, sorted(lst)
+
+    for idx in range(len(lst)):
+        if lst[0] == origin_list[idx]:
+            print(f'Debug: matched {idx}')
+            offset = 5 - idx
+            break
+
+    return offset
+
+if __name__ == '__main__':
+#     offset = get_offset([5, 7, 9, 1, 3])
+    offset = get_offset([5, 1, 2, 3, 4])
+    print(offset)
+
+```
