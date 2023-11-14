@@ -9,7 +9,7 @@
 | Degree | Field Of Study | School | Date |
 |:------:|:--------------:|:------:|:----:|
 |Bachelor|[Information and Computing Science](https://math.xtu.edu.cn/)|Xiangtan University|Sep 2009 -- Jun 2013|
-|Master|[Computational Matchmatics](https://math.xtu.edu.cn/)|Xiangtan University|Sep 2013 -- Jun 2016
+|Master|[Computational Matchmatics](https://math.xtu.edu.cn/)|Xiangtan University|Sep 2013 -- Jun 2016|
 <br/>
 
 ## Summary
