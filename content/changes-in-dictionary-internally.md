@@ -9,3 +9,5 @@ Summary: At Pycon 2017, Raymond Hettinger gave a talk about great ideas related 
 ## Reference
 [Raymond Hettinger Modern Python Dictionaries A confluence of a dozen great ideas PyCon 2017](https://www.youtube.com/watch?v=npw4s1QTmPg&ab_channel=PyCon2017)  
 [Python-dev: more compact dictionaries with faster iteration](https://mail.python.org/pipermail/python-dev/2012-December/123028.html)  
+
+[Real Python: cpython source code guide](https://realpython.com/cpython-source-code-guide/)  
