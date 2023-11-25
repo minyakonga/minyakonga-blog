@@ -1,7 +1,7 @@
 ## 基本信息
 | 姓名: 李强                         | 邮箱: [minyakonga@gmail.com](minyakonga@gmail.com)                                        |
 |:----------------------------------------|:-------------------------------------------------------------------|
-| Twitter: [https://x.com/minyakonga](https://x.com/minyakonga) | Github: [https://github.com/csrgxtu](https://github.com/cstgxtu)                                 |
+| Twitter: [https://x.com/minyakonga](https://x.com/minyakonga) | Github: [https://github.com/csrgxtu](https://github.com/csrgxtu)                                 |
 | 电话: [86+18598028196](86+18598028196)                   | 博客: [https://minyakonga.github.io](https://minyakonga.github.io)       [https://csrgxtu.github.io](https://csrgxtu.github.io) |
 
 ## 学历
