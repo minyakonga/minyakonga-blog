@@ -12,11 +12,17 @@
 |Master|[Computational Matchmatics](https://math.xtu.edu.cn/)|Xiangtan University|Sep 2013 -- Jun 2016
 <br/>
 
+
 ## Summary
-6+ years experience as server end developer, used to use various tech stacks, esp Python, Golang, NodeJs. familiar with internals of Python, web framework, MySQL, Redis, etc. Deep understanding of the tools we are using, still keep learning and digging the internals. Can concentrate on the things we are doing and keep improving it.
+7+ years experiences as server-end developer, used to use various tech stacks, esp Python, Golang, NodeJs. familiar with internals of Python, web framework, MySQL, Redis, etc. Deep understanding of the tools we are using, still keep learning and digging the internals. Can concentrate on the things we are doing and keep improving it.
 <br/><br/><br/>
 
 ## Working Histories
+**Bytedance China Ads Group Search Ads Department**, BeiJing, Jan 2024 -- Now  
+**Quality Assurance Engineer**  
+* Responsible for the design and implementation of model quality system
+* Responsible for the release of two ad sub-systems
+
 **Tencent CSIG PA**, ShenZhen GuangDong, May 2020 -- Sep 2023  
 **Senior Backend Developer**
 
@@ -65,4 +71,4 @@
 | Flask         | FastAPI   | Django  | GoFrame     | Laravel      | SpringBoot  | ExpressJS |
 | Git           | Docker    | Mysql   | Redis       | Kafka        | Prometheus  | MongoDB   |
 | TCP/IP/HTTP   | WSGI/ASGI | AsyncIO | Concurrency | Optimization | Refactoring | TDD       |
-| System Design |    |         |    |     |        |           |
+| System Design |           |         |    |     |        |           |
