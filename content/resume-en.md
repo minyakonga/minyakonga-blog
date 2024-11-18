@@ -1,9 +1,9 @@
 ## Basic Info
 | Name: Qiang Lee                          | Email: [minyakonga@gmail.com](minyakonga@gmail.com)                                        |
 |:----------------------------------------|:-------------------------------------------------------------------|
+| Phone: [86+18598028196](86+18598028196)                   |Reading: [Douban](https://book.douban.com/mine?status=collect)|
 | Twitter: [https://x.com/minyakonga](https://x.com/minyakonga) | Github: [https://github.com/csrgxtu](https://github.com/csrgxtu)                                 |
-| Phone: [86+18598028196](86+18598028196)                   |Reading: [DouBan](https://book.douban.com/mine?status=collect)|
-|Blog2: [https://minyakonga.github.io](https://minyakonga.github.io)|
+|Blog: [https://minyakonga.github.io](https://minyakonga.github.io)|
 <br/>
 
 ## Education
@@ -15,24 +15,24 @@
 
 
 ## Summary
-7+ years experiences as server-end developer, used to use various tech stacks, esp Python, Golang, NodeJs. familiar with internals of Python, web framework, MySQL, Redis, etc. Deep understanding of the tools we are using, still keep learning and digging the internals. Can concentrate on the things we are doing and keep improving it.
+7+ years of experience as a server-end developer, having led the development of critical systems handling high volumes of data and traffic. I have in-depth knowledge of Python, Golang, and NodeJs, and continuously explore and optimize the internals of web frameworks and databases like MySQL and Redis to enhance system performance.
 <br/><br/><br/>
 
 ## Working Histories
-**Bytedance China Ads Group Search Ads Department**, BeiJing, Jan 2024 -- Now  
+**Bytedance China Ads Group Search Ads Department**, BeiJing, Jan 2024.01 -- Now  
 **Senior Software Engineer**  
-* Responsible for the design and implementation of LLM model quality system
-* Responsible for the iterative development and maintainance of Ads Monitor system
-* Responsible for the iterative development and maintainance of Emergency response and handling system
-* Find and dev tools which will speedup the development during iteration of advertisement deliverry system, for example style delivery analysis tool
+* Responsible for the design and implementation of LLM model quality system, which gives detailed metrics after benchmarking before deploy it to production, thus reduced the online incident from avg 2/week to zero.
+* Responsible for the iterative development and maintainance of Ads Monitor system, cover more detailed business scenarios, continuously optimize the local code and design, and improve its performance from the half-minute level to the second level.
+* Responsible for the iterative development and maintainance of Emergency response and handling system.
+* Find and dev tools which will speedup the development during iteration of advertisement deliverry system, for example style delivery analysis tool, which simplify the dev and test process of ad style releated features and reduced avg time from 30 mins to 1min.
 * Responsible for the system stability, especially handling the engineering problems regarding the advertising business on Douyin M Station and the data feature extraction service.
-* Responsible for the release of three advertising sub services
+* Responsible for the release of three advertising sub-services.
 
 What I learned
-* Prompt engineering and knowledge of LLM
-* AB testing, experiment curlture and related supporting tools and system
-* Business and technical logic of search ads
-* Effective engineer practices
+* Prompt engineering and knowledge of LLM when dev llm model quality system.
+* AB testing, experiment curlture and related supporting tools and system when doing system stability related tasks.
+* Business and technical logic of search ads.
+* Effective engineer practices when i see some anti-patterns in project development and try to introduce good practices into it.
 * Knowledge related to product managers, conduct research and design, and implement it.
 
 
@@ -44,7 +44,7 @@ What I learned
 * Upgraded the tech stack used in AutoBan system into newer stable versions, and developed related documentation to make DevOps more easy.
 * Push AutoBan System covered more business scenarios, trying to satisfy the compliance requirements as much as possible.
 * Led development of related tools to make operation department work more efficiently.
-* Designed and developed ICP query service which is used by all Tencent Cloud Products(260 qps), need guarantee it runs correctly, fast, and robustly.
+* Designed and developed ICP query service which is used by all Tencent Cloud Products(260 qps), needing to guarantee it runs correctly, fast, and robustly.
 * Designed and developed LogVerify, SafetyCheck, Metric systemes, etc.
 <br/><br/>
 
