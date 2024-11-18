@@ -2,7 +2,8 @@
 | Name: Qiang Lee                          | Email: [minyakonga@gmail.com](minyakonga@gmail.com)                                        |
 |:----------------------------------------|:-------------------------------------------------------------------|
 | Twitter: [https://x.com/minyakonga](https://x.com/minyakonga) | Github: [https://github.com/csrgxtu](https://github.com/csrgxtu)                                 |
-| Phone: [86+18598028196](86+18598028196)                   | Blog: [https://minyakonga.github.io](https://minyakonga.github.io)       [https://csrgxtu.github.io](https://cstgxtu.github.io) |
+| Phone: [86+18598028196](86+18598028196)                   |Reading: [DouBan](https://book.douban.com/mine?status=collect)|
+|Blog2: [https://minyakonga.github.io](https://minyakonga.github.io)|
 <br/>
 
 ## Education
@@ -19,9 +20,21 @@
 
 ## Working Histories
 **Bytedance China Ads Group Search Ads Department**, BeiJing, Jan 2024 -- Now  
-**Quality Assurance Engineer**  
-* Responsible for the design and implementation of model quality system
-* Responsible for the release of two ad sub-systems
+**Senior Software Engineer**  
+* Responsible for the design and implementation of LLM model quality system
+* Responsible for the iterative development and maintainance of Ads Monitor system
+* Responsible for the iterative development and maintainance of Emergency response and handling system
+* Find and dev tools which will speedup the development during iteration of advertisement deliverry system, for example style delivery analysis tool
+* Responsible for the system stability, especially handling the engineering problems regarding the advertising business on Douyin M Station and the data feature extraction service.
+* Responsible for the release of three advertising sub services
+
+What I learned
+* Prompt engineering and knowledge of LLM
+* AB testing, experiment curlture and related supporting tools and system
+* Business and technical logic of search ads
+* Effective engineer practices
+* Knowledge related to product managers, conduct research and design, and implement it.
+
 
 **Tencent CSIG PA**, ShenZhen GuangDong, May 2020 -- Sep 2023  
 **Senior Backend Developer**
@@ -71,4 +84,4 @@
 | Flask         | FastAPI   | Django  | GoFrame     | Laravel      | SpringBoot  | ExpressJS |
 | Git           | Docker    | Mysql   | Redis       | Kafka        | Prometheus  | MongoDB   |
 | TCP/IP/HTTP   | WSGI/ASGI | AsyncIO | Concurrency | Optimization | Refactoring | TDD       |
-| System Design |           |         |    |     |        |           |
+| System Design |ABTesting|PromptEnginner|Ads Delivery System|Product Design|Effetiveness of engineer team||
