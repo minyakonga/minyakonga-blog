@@ -59,16 +59,6 @@ What I learned
 * Team knowledge share on: TCP/IP/HTTP illustrated.
 <br/><br/>
 
-**BeautifulReading Inc**, GuangZhou GuangDong, Sep 2015 -- Jan 2017  
-**Software Engineer**
-
-* Implemented various features for the Poem For Child project.
-* Involved in company wide project development: api gateway.
-* Inherited book-shelf project and maintaining it.
-* Crawling book related data with Python Scrapy.
-* Analyze user related data with Hadoop, Hive.
-<br/><br/><br/>
-
 ## Personal Projects
 [GoFrame bugfix](https://github.com/gogf/gf/pull/802): contributed to Golang framework GF, fixed log file exceeded the rotate size setting.  
 [tiktok-uploader bugfix](https://github.com/wkaisertexas/tiktok-uploader/pull/58): contributed to tiktok-uploader, fix start up problems.  
@@ -84,4 +74,4 @@ What I learned
 | Flask         | FastAPI   | Django  | GoFrame     | Laravel      | SpringBoot  | ExpressJS |
 | Git           | Docker    | Mysql   | Redis       | Kafka        | Prometheus  | MongoDB   |
 | TCP/IP/HTTP   | WSGI/ASGI | AsyncIO | Concurrency | Optimization | Refactoring | TDD       |
-| System Design |ABTesting|PromptEnginner|Ads Delivery System|Product Design|Effetiveness of engineer team||
+| System Design |ABTesting|PromptEnginner|Ads Delivery System|Product Design|Effetiveness of engineer team|AWS|

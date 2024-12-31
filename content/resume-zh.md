@@ -1,8 +1,10 @@
 ## 基本信息
-| 姓名: 李强                         | 邮箱: [minyakonga@gmail.com](minyakonga@gmail.com)                                        |
+| Name: 李强                          | 邮箱: [minyakonga@gmail.com](minyakonga@gmail.com)                                        |
 |:----------------------------------------|:-------------------------------------------------------------------|
+| 电话: [86+18598028196](86+18598028196)                   |读书: [Douban](https://book.douban.com/mine?status=collect)|
 | Twitter: [https://x.com/minyakonga](https://x.com/minyakonga) | Github: [https://github.com/csrgxtu](https://github.com/csrgxtu)                                 |
-| 电话: [86+18598028196](86+18598028196)                   | 博客: [https://minyakonga.github.io](https://minyakonga.github.io)       [https://csrgxtu.github.io](https://csrgxtu.github.io) |
+|博客: [https://minyakonga.github.io](https://minyakonga.github.io)|
+<br/>
 
 ## 学历
 | 学位 | 专业 | 学校 | 日期 |
@@ -11,17 +13,23 @@
 |硕士|[计算数学](https://math.xtu.edu.cn/)|湘潭大学|2013.09 -- 2016.06|
 
 ## 总结
-拥有 7 年以上服务器端开发经验，习惯使用各种技术堆栈，尤其是 Python、Golang、NodeJs。 熟悉Python、Golang、Web框架、MySQL、Redis等内部原理。对我们正在使用的工具有深入的了解，仍然不断学习和挖掘内部原理。 能够专注于我们正在做的事情并不断改进。
+拥有7年服务器端开发经验，熟悉Python、Golang、Web框架、MySQL、Redis、消息队列等内部原理，曾负责主导大流量高并发系统的设计开发维护。主动负责，持续学习，能够专注并持续改进现有系统，提升用户体验。
 <br/><br/>
 
 ## 工作经历
-**字节中国商业产品与技术 投放工程与算法 搜索广告 中台技术**, 北京, 1月 2024 -- Now  
+**字节跳动 中国商业产品与技术 投放工程与算法 搜索广告 中台技术**, 北京, 1月 2024 -- Now  
 **高级软件工程师**
 * 负责大模型压测系统设计及开发
 * 负责智能监控系统迭代及维护
 * 负责应急系统迭代及维护
 * 负责抖音M站业务全链路的稳定性建设
 * 参与搜广自动化样式分析平台的开发建设
+
+收获
+* Prompt engineering 和基础的LLM知识
+* AB testing系统原理及设计
+* 搜索广告业务知识
+* 需求调研和产品设计
 <br/><br/>
 
 **腾讯云 安全合规部**, 深圳 广东, 5月 2020 -- 10月 2023  
@@ -45,15 +53,6 @@
 * 团队知识共享：TCP\IP/HTTP 图解。
 <br/><br/>
 
-**美丽阅读**, 广州 广东, 9月 2015 -- 1月 2017  
-**后端工程师**
-* 参与给孩子的诗项目功能开发。
-* 参与公司级项目开发：API Gateway。
-* 接手书架项目并进行迭代开发。
-* 用Python&Scrapy爬取书籍相关信息。
-* 使用Hadoop&Hive分析用户数据。
-<br/><br/><br/>
-
 ## 个人项目
 [GoFrame buffix](https://github.com/gogf/gf/pull/802): 修复GoFrame框架日志文件过大不遵守Rotate设置问题。  
 [tiktok-uploader bugfix](https://github.com/wkaisertexas/tiktok-uploader/pull/58): 修复项目启动问题。   
@@ -69,4 +68,4 @@
 | Flask         | FastAPI   | Django  | GoFrame     | Laravel      | SpringBoot  | ExpressJS |
 | Git           | Docker    | Mysql   | Redis       | Kafka        | Prometheus  | MongoDB   |
 | TCP/IP/HTTP   | WSGI/ASGI | AsyncIO | Concurrency | Optimization | Refactoring | TDD       |
-| System Design |    |         |    |     |        |           |
+| System Design | AWS   | Web Crawler |    |     |        |           |
